@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+ background-color: var(--accent-color) ; 
+
+color: var(--base-color);
+font-family: var(--base-font);
+
+}
+
+h1{
+ font-family: var(--accent-font); 
+ font-size: 1.50em;  
+}
+
+
+h2{
+    color: var(--base-color);
+}
+a{
+ text-decoration: none;  
+ color: var(--base-color); 
+
+}
+
+a:hover{
+ color: aliceblue;
+}
+
+ul{
+list-style: none;  
+}

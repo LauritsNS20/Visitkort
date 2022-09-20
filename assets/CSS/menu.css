@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+
+   width: 100%; 
+
+  flex-direction: row-reverse;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+nav label{
+  font-size: 2em ; 
+}
+
+nav input[type="checkbox"] {
+    display: none;
+}
+
+nav input[type="checkbox"]:checked ~ ul {
+  display: flex;  
+}
+
+nav ul{
+    display: none;
+
+    font-size: 1,2em;
+    gap: 1em;
+}
+
