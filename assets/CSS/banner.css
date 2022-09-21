@@ -1,0 +1,10 @@
+.banner{
+    padding: 0%;   
+}
+
+.banner img{
+    width: 100%;
+    height: 50vh;
+
+  object-fit: cover;    
+}

@@ -1,0 +1,21 @@
+.resume{
+  width: 70%;  
+  margin: 0 auto;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.experience{
+    width: 70%;
+  flex-grow: 2;  
+}
+
+.resume aside{
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    gap: 2em;
+}
